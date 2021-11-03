@@ -1,0 +1,299 @@
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'ELAND_Choice_B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_B.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ELAND_Nice_M';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Nice_M.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav {
+    font-family: 'GmarketSansBold';
+  background-color: #ffffff;
+}
+
+.file-upload {
+  background-color: #ffffff;
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px 20px;
+	
+}
+
+
+
+
+
+.drag-text {
+  text-align: center;
+	
+}
+
+.drag-text h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #28363D;
+  padding: 40px 0;
+}
+
+.upload-image{
+	margin-top: 5rem;
+	width:90%;
+}
+
+.upload-text{
+	font-size:1.1rem;
+	font-family: 'NanumSquare', sans-serif !important;
+}
+.file-upload-image {
+  max-height: 250px;
+  max-width: 250px;
+  margin: auto;
+  padding: 20px;
+}
+
+
+
+footer
+
+.out
+{
+text-align:center;
+margin:auto;
+	margin-bottom:20px
+	
+	
+}
+
+.button-container-2 
+{
+	display:inline-block;
+	position: relative;
+  width: 30%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  overflow: hidden;
+  border: 1px solid #202733;
+  font-family: "GmarketSansMedium";
+  font-weight: 500;
+  transition: 0.5s;
+  letter-spacing: 1px;
+  border-radius: 8px;
+}
+.button-container-2 button {
+  width: 101%;
+  height: 100%;
+  font-family: "GmarketSansMedium";
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  background: #202733;
+  -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
+  mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
+  -webkit-mask-size: 3000% 100%;
+  mask-size: 3000% 100%;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  -webkit-animation: ani2 0.7s steps(29) forwards;
+  animation: ani2 0.7s steps(29) forwards;
+}
+
+
+.button-container-2 button:hover {
+  -webkit-animation: ani 0.7s steps(29) forwards;
+  animation: ani 0.7s steps(29) forwards;
+}
+
+.mas {
+  position: absolute;
+  color: #000;
+  text-align: center;
+  width: 101%;
+  font-family: "GmarketSansMedium";
+  font-weight: 300;
+  position: absolute;
+  font-size: 18px;
+  margin-top:12px;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+@-webkit-keyframes ani {
+  from {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+  to {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+}
+@keyframes ani {
+  from {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+  to {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+}
+@-webkit-keyframes ani2 {
+  from {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+  to {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+}
+@keyframes ani2 {
+  from {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+  to {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+}
+a {
+  color: #00ff95;
+}
+///
+
+-------------------
+
+
+
+
+
+.nav-distance {
+	padding: 3% 7.7%;
+}
+@font-face {
+    font-family: 'ELAND_Choice_L';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_L.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.nav-item {
+		margin-top: 1.5rem;
+    margin-left: 1rem;
+font-family:  'GmarketSansMedium';
+		font-size:1.1rem;
+	
+}
+.navbar-light .navbar-toggler {
+	border-color: #ffffff;
+		
+}
+.navbar-brand{
+	font-size:2rem;
+	margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.at-share-btn-elements {
+	margin-top :30px;
+}
+
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+.nanumsquare {
+    font-family: 'NanumSquare', sans-serif !important;
+}
+.section {
+	margin-top: 80px;
+	font-family: 'NanumSquare', sans-serif !important;
+}
+
+@font-face {
+    font-family: 'InfinitySans-BoldA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-BoldA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title {
+	 font-family: 'InfinitySans-BoldA1';
+	font-weight: 500;
+	line-height: 1.53;
+	text-align: center;
+	color: #35465d;
+	font-size: 1.45rem;
+}
+
+.subtitle {
+	margin-top: 25px;
+	font-family: 'NanumSquare', sans-serif !important;
+	line-height: 1.53;
+	text-align: center;
+	font-size: 1.1rem;
+	color: #35465d;
+}
+
+	
+	
+
+	@font-face {
+    font-family: 'InkLipquid';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ad-banner {
+		width: 320px;
+			margin: 0 auto;
+	}	
+
+.ad-explain {
+	margin-top: -5px;
+	font-family: 'ELAND_Choice_B';
+	font-weight: 500;
+	line-height: 1.53;
+	text-align: center;
+	font-size: 1rem;
+}
+
+.text-center {
+	margin-top: 5px;
+	font-family: 'InkLipquid';
+font-size: 1.2rem;	
+}
+
+
+
+	
+	/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	html {
+		font-size: 10px;
+	}
+	
+
+	* {box-sizing:border-box}

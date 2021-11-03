@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	   <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>songpa artgallery</title>
+		 <link rel="stylesheet" href="artgallery.css" />
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5fe6dac2d67b591d"></script>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+	  
+	  <nav class="navbar navbar-expand-lg navbar-light nav-distance">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/index ">석촌 아트갤러리</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/artgallery">아트갤러리</a>
+        </li>
+		  <li class="nav-item">
+          <a class="nav-link" href="/index">초대합니다</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">기공식 리플렛</a>
+        </li>
+
+    
+      </ul>
+    </div>
+  </div>
+</nav>
+				
+
+                         
+
+           
+				 <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 6</div>
+        <img src="img/artgallery1.jpg" style="width:100%">
+        <div class="text">ART GALLERY</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 6</div>
+        <img src="img/artgallery2.jpg" style="width:100%">
+        <div class="text">ART GALLERY</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 6</div>
+        <img src="img/artgallery3.jpg" style="width:100%">
+        <div class="text">ART GALLERY</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 6</div>
+        <img src="img/artgallery4.jpg" style="width:100%">
+        <div class="text">ART GALLERY</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 6</div>
+        <img src="img/artgallery5.jpg" style="width:100%">
+        <div class="text">ART GALLERY</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 6</div>
+        <img src="img/artgallery6.jpg" style="width:100%">
+        <div class="text">ART GALLERY</div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="moveSlides(-1)">&#10094;</a>
+      <a class="next" onclick="moveSlides(1)">&#10095;</a>
+    </div>
+    <br/>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(0)"></span>
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+  </body>
+	
+
+	<script>
+	var slideIndex = 0; //slide index
+
+// HTML 로드가 끝난 후 동작
+window.onload=function(){
+  showSlides(slideIndex);
+
+  // Auto Move Slide
+  var sec = 3000;
+  setInterval(function(){
+    slideIndex++;
+    showSlides(slideIndex);
+
+  }, sec);
+}
+
+
+// Next/previous controls
+function moveSlides(n) {
+  slideIndex = slideIndex + n
+  showSlides(slideIndex);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  slideIndex = n;
+  showSlides(slideIndex);
+}
+
+function showSlides(n) {
+
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  var size = slides.length;
+
+  if ((n+1) > size) {
+    slideIndex = 0; n = 0;
+  }else if (n < 0) {
+    slideIndex = (size-1);
+    n = (size-1);
+  }
+
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" dotactive", "");
+  }
+
+  slides[n].style.display = "block";
+  dots[n].className += " dotactive";
+}
+	</script>
+	
+	
+	<div class="drag-text">
+							<img src="img/artgallery7.jpg"
+								 class="upload-image">
+                                                    </div>
+	
+	
+	<footer class="footer pt-5 container d-flex justify-content-center">
+   
+      
+    </footer>
+</html>
