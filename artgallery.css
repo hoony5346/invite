@@ -51,7 +51,7 @@ nav {
 
 .upload-image{
 	margin-top: 25px;
-	width:80%;
+	width:30%;
 }
 
 .upload-text{
@@ -65,7 +65,12 @@ nav {
   padding: 20px;
 }
 
-
+.about-orchestra {
+	text-align: center;
+font-family: 'GmarketSansMedium';
+	font-size: 1.5rem;
+	
+}
 
 
 
@@ -262,13 +267,13 @@ font-family: 'GmarketSansMedium';
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 80%;
-  max-height: 700px;
+  max-width: 86%;
+  max-height: 670px;
   position: relative;
   margin: auto;
 }
 .slideshow-container .mySlides img {
-  height: 70git0px;
+  height: 670px;
 }
 
 /* Hide the images by default */
@@ -355,4 +360,10 @@ font-family: 'GmarketSansMedium';
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+
+.box {
+	
+	height: 100px;
 }
