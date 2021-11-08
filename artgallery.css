@@ -268,12 +268,12 @@ font-family: 'GmarketSansMedium';
 /* Slideshow container */
 .slideshow-container {
   max-width: 86%;
-  max-height: 670px;
+  max-height: auto;
   position: relative;
   margin: auto;
 }
 .slideshow-container .mySlides img {
-  height: 670px;
+  height: auto;
 }
 
 /* Hide the images by default */
