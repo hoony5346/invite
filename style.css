@@ -232,6 +232,12 @@ font-family: 'GmarketSansMedium';
 	margin-top :30px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
 <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
 .nanumsquare {
     font-family: 'NanumSquare', sans-serif !important;
