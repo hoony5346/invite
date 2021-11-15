@@ -1,4 +1,11 @@
 @font-face {
+    font-family: 'twaysky';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'GmarketSansBold';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
     font-weight: normal;
@@ -26,7 +33,7 @@
 }
 
 nav {
-    font-family: 'GmarketSansBold';
+    font-family: 'twaysky';
   background-color: #ffffff;
 }
 
