@@ -12,7 +12,11 @@
     font-style: normal;
 }
 
-
+.songpa{ 
+	height: 80px
+	
+	
+}
 @font-face {
     font-family: 'ELAND_Choice_B';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_B.woff') format('woff');

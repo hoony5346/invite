@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-	  
+	      <meta charset="utf-8"/>
+    <title>Kakao JavaScript SDK</title>
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
 	  <meta property="og:url" content="https://songpamunhwa.site/">
     <meta property="og:title" content="다가치 오케스트라">
     <meta property="og:type" content="website">
@@ -198,9 +200,16 @@ function showSlides(n) {
                             </button></div>
 	
 		<div class="button-container-2">
-				 <span class="mas">송파구청 홈페이지</span>
-                            <button type="button" onclick="location.href='https://www.songpa.go.kr/www/index.do';" class="remove-image">송파구청
-                               
+				 <span class="mas">카카오톡 공유			</span>
+                            <button type="button" onClick="sendLinkCustom();" class="remove-image">카카오톡 공유
+                               <script type="text/javascript">
+    function sendLinkCustom() {
+        Kakao.init("c2157482c5c7055d05aca69faba01151");
+        Kakao.Link.sendCustom({
+            templateId: 65292
+        });
+    }
+</script>
                             </button></div>
 	
 
