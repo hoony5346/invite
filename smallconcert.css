@@ -25,10 +25,15 @@
 	
 	
 }
+.artimg{
+	
+	width: auto;
+}
 .artlierbox {
 	margin-left:5%;
-	width: 100%
-	
+	width: auto;
+	height: auto;
+
 }
 
 nav {
