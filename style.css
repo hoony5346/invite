@@ -41,6 +41,7 @@
 nav {
     font-family: 'twaysky';
   background-color: #ffffff;
+
 }
 
 .file-upload {
@@ -241,7 +242,7 @@ font-family: 'GmarketSansMedium';
 		
 }
 .navbar-brand{
-	font-size:2.1rem;
+font-size:2.1rem;
 }
 
 .at-share-btn-elements {
