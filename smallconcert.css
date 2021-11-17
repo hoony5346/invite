@@ -26,7 +26,7 @@
 	
 }
 .artlierbox {
-	margin-left:5%
+	margin-left:5%;
 	
 }
 
@@ -36,6 +36,7 @@ nav {
 }
 
 .mapbox {
+	margin-top: 70px;
 	margin-left:5%;
 	width:90%;
 	
