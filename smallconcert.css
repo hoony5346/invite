@@ -32,6 +32,10 @@ nav {
   background-color: #ffffff;
 }
 
+.mapbox {
+	width:90%;
+	
+}
 
 .drag-text {
   text-align: center;
