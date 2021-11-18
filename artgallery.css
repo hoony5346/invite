@@ -86,7 +86,12 @@ font-family: 'GmarketSansMedium';
 
 
 
-
+.out1
+{
+text-align:center;
+margin:auto;
+	margin-bottom:50px;
+}
 
 
 
@@ -391,4 +396,12 @@ font-family: 'GmarketSansMedium';
 #cosmosfarm-comments {
 	margin: auto;
 	
+}
+
+.message {
+	margin-top:100px;
+	text-align: center;
+	font-family: "twaysky";
+	font-size: 1.5rem;
+	margin-bottom: 30px;
 }
