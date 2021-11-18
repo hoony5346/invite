@@ -91,7 +91,7 @@ font-family: 'GmarketSansMedium';
 text-align:center;
 margin:auto;
 	margin-bottom:50px;
-	width:50%;
+	width:60%;
 }
 
 
@@ -413,4 +413,15 @@ font-family: 'GmarketSansMedium';
 	font-family: "nanumsquare";
 	font-size: 1rem;
 	margin-bottom: 30px;
+}
+
+
+.backbox{
+	margin-top: 50px;
+	border:solid #f7f2f0;
+	margin-bottom: 30px;
+	width: 90%;
+		text-align: center;
+	margin-left:5%;
+	background-color: #f7f2f0;
 }
