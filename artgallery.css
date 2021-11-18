@@ -91,10 +91,18 @@ font-family: 'GmarketSansMedium';
 text-align:center;
 margin:auto;
 	margin-bottom:50px;
-	width:60%;
+	border: solid #ee5a24;
+	width:50%;
+	position: relative;
+	background-color: white;
 }
 
+.out2
 
+{
+	margin-bottom:30px;
+	
+}
 
 
 
@@ -403,7 +411,8 @@ font-family: 'GmarketSansMedium';
 	margin-top:100px;
 	text-align: center;
 	font-family: "twaysky";
-	font-size: 1.5rem;
+	color: #ee5a24;
+	font-size: 1.8rem;
 	margin-bottom: 5px;
 }
 
@@ -423,5 +432,7 @@ font-family: 'GmarketSansMedium';
 	width: 90%;
 		text-align: center;
 	margin-left:5%;
-	background-color: #f7f2f0;
+	position: relative;
+	background-image: url(img/BG.png)
 }
+
